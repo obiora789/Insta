@@ -1,0 +1,60 @@
+body{
+    background-color:#618bcd;
+}
+
+.header{
+    background-color:#0032b1;
+    font-family: cursive;
+    color:white;
+    text-align: center;
+    width: 1296px;
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: -10px;
+}
+
+#slider {
+    width: 640px;
+    height: 80%;
+    overflow: hidden;
+    position: absolute;
+    left: 320px;
+}
+
+#slider .picsHere {
+    display: block;
+    width: 7040px;
+    height: 80%;
+    margin: 0;
+    padding: 0;
+}
+
+#slider .slide {
+    float: left;
+    list-style-type: none;
+    width: 640px;
+    height: 80%;
+}
+.left-tab:hover, .right-tab:hover{
+    opacity: 1;
+}
+.right-tab, .left-tab{
+    width: 80px;
+    height: 90px;
+    border-radius:100%;
+    position: absolute;
+    outline: none;
+    margin-left: 1000px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 200px;
+    background-color:#122555;
+    opacity: 0.3;
+    color: white;
+}
+.right-tab{
+    margin-left: 1100px;
+}
+.left-tab{
+    margin-left: 100px;
+}
